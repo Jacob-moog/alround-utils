@@ -128126,5 +128126,64 @@
 .moveup-999{animation-name:moveup-999} @keyframes moveup-999{0%{translate:0px 0px 0px}50%{translate:0px -999px 0px}100%{translate:0px 0px 0px}}
 .moveup-999-5{animation-name:moveup-999-5} @keyframes moveup-999-5{0%{translate:0px 0px 0px}50%{translate:0px -999.5px 0px}100%{translate:0px 0px 0px}}
 .moveup-1000{animation-name:moveup-1000} @keyframes moveup-1000{0%{translate:0px 0px 0px}50%{translate:0px -1000px 0px}100%{translate:0px 0px 0px}}
+    button{
+      cursor: pointer;
+      border-radius: 2px;
+    }
+    section{
+      margin:20px;
+    }
+    :root{
+      --default-color:#a440b1;
+    }
 
+    .buttonmoveup:hover{
+      animation-name: moveup-10;
+    }
+    .buttonscaleto1-5{
+      transition: 0.2s ease-in-out;
+
+    }
+    .buttonscaleto1-5:hover{
+      scale:1.2;
+    }
+    .buttonfill{
+    background-color: transparent;
+    color: var(--default-color);
+    transition: 0.2s ease-in-out;
+
+    }
+    .buttonfill:hover{
+      background-color: var(--default-color);
+      color: white;
+
+    }
+    .vibrate:hover{
+     animation: vibrate 0.5s linear 2;
+    }
+    @keyframes vibrate {
+      0%{
+        translate:0 0 0;
+      }
+      50%{
+        translate:5px 0 0;
+      }
+            60%{
+        translate:-5px 0 0;
+      }
+     70%{
+        translate:5px 0 0;
+      }
+           80%{
+        translate:-5px 0 0;
+      }
+     90%{
+        translate:5px 0 0;
+      }
+      100%{
+              translate:0 0 0;
+  
+      }
+    }
+    
 /* #endregion */
