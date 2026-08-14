@@ -1,0 +1,89 @@
+.yours{
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+.util-link{
+  width: 100%;
+  background-color: white;
+  height: 100px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.util-link span{
+  width: 100%;
+  height: 50%;
+  border-radius: 10px;
+  display: flex;
+  background-color: rgb(238, 239, 241);
+  align-items: center;
+  padding: 10px;
+  overflow-x: scroll;
+  cursor: pointer;
+  text-wrap: nowrap;
+}
+.util-link span h6{
+  display: none;
+  position: absolute;
+  translate: 0px 28px;
+}
+.util-link span:hover{
+  background-color:rgb(235, 235, 235) ;
+}
+.util-link span:hover h6{
+  display: block;
+
+}
+.util-link nav{
+  display: flex;
+
+}
+.util-link nav button{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  
+}
+.link-btns{
+  margin-left: auto;
+}
+.link-btns button{
+  margin: 5px;
+}
+.link-btns button h6{
+  position: absolute;
+  translate: -5px -15px;
+  display: none;
+  font-size: 14px;
+}
+.link-btns button:hover h6{
+  display: block;
+}
+.saves{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.saves{
+  width: 100%;
+
+}
+.save-con{
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+   gap:10px;
+  padding: 20px;
+}
+
+.save-con div{
+  width: 150px;
+  height:160px ;
+  overflow: hidden;
+  border-radius: var(--b2);
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,164 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+    font-family: var(--fontf);
+  user-select: none;
+  zoom: none;
+}
+html{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+
+}
+
+button{
+    -webkit-tap-highlight-color:transparent;
+    cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+:root{
+  /*colors*/
+  --main:#ad1ec0;/*ad1ec0*/
+  --third-main:#e4acec;
+  --second-main:#a440b1;
+  --white:white;
+  --deepmain:#390c3e;
+  /* Palette */
+  --gray-10:rgb(253, 253, 253);
+  --gray-50:rgb(253, 253, 253);
+  --gray-100: #f3f4f6;
+  --gray-200: rgb(238, 239, 241);
+  --gray-300: #d1d5db;
+  --gray-400: #c3c4c7;
+  --gray-500: #6b7280;
+  --gray-700: #374151;
+  --gray-900: #111827;
+
+  /* Semantic variables */
+  --bg: var(--gray-900);
+  --surface: var(--gray-700);
+  --text: #fff;
+  --text-secondary: var(--gray-300);
+  --border: var(--gray-500);
+
+  /**/
+  --b05:2.5px;
+  --b1:5px;
+  --b2:10px;
+  --b3:15px;
+  --b4:20px;
+  --b5:25px;
+  --b6:30px;
+  --b7:35px;
+  --b8:40px;
+  --b9:45px;
+  --b10:50px;
+
+  /**/
+  --p05:2.5px;
+  --p1:5px;
+  --p2:10px;
+  --p3:15px;
+  --p4:20px;
+  --p5:25px;
+  --p6:30px;
+  --p7:35px;
+  --p8:40px;
+  --p9:45px;
+  --p10:50px;
+
+  --m1:5px;
+  --m2:10px;
+  --m3:15px;
+  --m4:20px;
+  --m5:25px;
+  --m6:30px;
+  --m7:35px;
+  --m8:40px;
+  --m9:45px;
+  --m10:50px;
+
+
+  --fs1:5px;
+  --fs2:10px;
+  --fs3:15px;
+  --fs4:20px;
+  --fs5:25px;
+  --fs6:30px;
+  --fs7:35px;
+  --fs8:40px;
+  --fs9:45px;
+  --fs10:50px;
+
+  --allw:100%;
+  --allh:100%;
+  --halfw:50%;
+  --halfh:50%;
+
+  /**/
+  --logoborder:5px solid var(--main);
+
+  /**/
+  --fontf:"Bitcount Single";
+
+  /**/
+  --transparent:transparent;
+
+  /**/
+  --searchb:2px solid var(--main);
+
+  /**/
+  --ease:all 0.3s ease-in-out;
+  /**/
+  --main-border:1.6px solid var(--gray-100);
+}
+.searchiconnav{
+  color:var(--gray-300);
+}
+.icongray{
+  color:var(--gray-500);
+}
+.deepmain{
+  color:var(--deepmain);
+}
+.iconsecondmain{
+  color:var(--second-main);
+}
+.icongray400{
+  color:var(--gray-400);
+}
+
+
+
+
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-auto-rows: 50%;
+  padding: 10px;
+  gap: 2px;
+  overflow-y: scroll;
+}
+video{
+  width: 100%;
+  height: 100%;
+border: 1px solid var(--gray-300) ;
+cursor: pointer;
+transition: var(--ease);
+background-color: white;
+}
+video:hover{
+  scale: 1.1;
+  box-shadow: 0 0 100px var(--gray-200);
+}
