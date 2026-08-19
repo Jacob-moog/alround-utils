@@ -9,7 +9,7 @@ public class Security {
   @Bean public SecurityFilterChain filter(HttpSecurity http)throws Exception{
     http.csrf(csrf->csrf.disable());
     http.authorizeHttpRequests(auth->auth
-      .requestMatchers(
+      .requestMatchers("/",
         "/pages/html/welcome.html","/pages/css/welcome.css","/pages/javascript/welcome.js","/pages/javascript/api/getHome.js","/welcome","/home",
         "/pages/css/gitcss.css",
         "/pages/html/developer.html","/pages/css/developer.css","/pages/javascript/developer.js","/developer",
