@@ -178,7 +178,7 @@ ele.copylink.addEventListener("click",()=>{
   navigator.clipboard.writeText(`<link rel="stylesheet"  href="https://jacob-moog.github.io/alround-utils/gitcss.css">`)
 })
 ele.linkdisplay.addEventListener("click",()=>{
-  navigator.clipboard.writeText(`<link rel="stylesheet"  href="https://jacob-moog.github.io/alround-utils/gitcss.css">`)
+  navigator.clipboard.writeText(`<link rel="stylesheet"  href="https://old-grass-c174.jacobmoogdeveloper.workers.dev">`)
 })
 ele.yoursbtn.addEventListener("click",()=>{
   showYours();

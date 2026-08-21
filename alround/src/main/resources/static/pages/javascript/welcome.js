@@ -31,7 +31,7 @@ ele.scrollbtn.addEventListener("click",()=>{
 })
 
 ele.homecopyutil.addEventListener("click",()=>{
-  navigator.clipboard.writeText(`<link rel="stylesheet"  href="https://jacob-moog.github.io/alround-utils/gitcss.css">`)
+  navigator.clipboard.writeText(`<link rel="stylesheet"  href="https://old-grass-c174.jacobmoogdeveloper.workers.dev">`)
 });
 
 window.addEventListener("DOMContentLoaded",()=>{
