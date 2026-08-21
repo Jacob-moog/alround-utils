@@ -38,6 +38,8 @@ export const showcontentbtn=()=>{
 
 function comingSoon(){
   ele.contentbrands.style.placeItems="center";
+  ele.contentbrands.style.textAlign="center";
+  ele.contentbrands.style.width="100%";
   ele.contentbrands.innerHTML=`<h1 style="color:rgb(200,200,200);font-size:60px;">brand loaders coming soon!</h1>`
 }
 export const showcontentBrands=()=>{

@@ -211,8 +211,3 @@ ele.searchinput.addEventListener("keydown",(event)=>{
 
 
 
-
-function comingSoon(){
-  ele.contentbrands.style.placeItems="center";
-  ele.contentbrands.innerHTML=`<i class="fa-regular fa-clock" style="color:rgb(200,200,200);scale:3;"></i><br><h1 style="color:rgb(200,200,200);font-size:50px;">brand loaders coming soon!</h1>`
-}
