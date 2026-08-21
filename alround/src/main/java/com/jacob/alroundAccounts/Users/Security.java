@@ -30,6 +30,7 @@ public class Security {
         "/pages/javascript/SettingPopups.js",
         "/pages/javascript/tabController.js",
         "/pages/javascript/directory/*",
+        "/pages/css/gitcss.css",
         
         "/brands",
         "/buttons",
@@ -38,8 +39,7 @@ public class Security {
         "/delete/profile",
         "/search/button",
         "/search/motion",
-        "/search/brand"
-         
+        "/search/brand"         
         
       )
      .permitAll()

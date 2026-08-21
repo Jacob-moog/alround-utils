@@ -197,6 +197,8 @@ ele.clearsearch.addEventListener("click",()=>{
 
 })
 
+
+
 ele.searchinput.addEventListener("keydown",(event)=>{
   if(event.keyCode===13){
     event.preventDefault();
@@ -204,7 +206,6 @@ ele.searchinput.addEventListener("keydown",(event)=>{
     searchBrand();
     searchMotion();
     searchButton();
-    
-  }else{return;}
+  }else{return ;}
 
 })
