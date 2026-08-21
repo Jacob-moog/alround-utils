@@ -168,7 +168,6 @@ fetchMotions();
 window.addEventListener("resize",()=>{
 resize();
 })
-//console.log(document.querySelector(".searchinput"))
 ele.motions.addEventListener("click",()=>{
   if(getComputedStyle(ele.content).display=="grid"){return;}else{
   showContent();
@@ -209,3 +208,11 @@ ele.searchinput.addEventListener("keydown",(event)=>{
   }else{return ;}
 
 })
+
+
+
+
+function comingSoon(){
+  ele.contentbrands.style.placeItems="center";
+  ele.contentbrands.innerHTML=`<i class="fa-regular fa-clock" style="color:rgb(200,200,200);scale:3;"></i><br><h1 style="color:rgb(200,200,200);font-size:50px;">brand loaders coming soon!</h1>`
+}
