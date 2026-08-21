@@ -13,7 +13,7 @@ public class Security {
         "/pages/html/welcome.html","/pages/css/welcome.css","/pages/javascript/welcome.js","/pages/javascript/api/getHome.js","/welcome","/home",
         "/pages/css/gitcss.css",
         "/pages/html/developer.html","/pages/css/developer.css","/pages/javascript/developer.js","/developer",
-        "/pages/images/developerimg.jpeg",
+        "/pages/images/*",
         "/pages/css/about.css","/pages/html/about.html","/about",
         "/pages/html/Terms&Services.html","/pages/css/Terms&Services.css","/terms",
         "/pages/html/how.html","/pages/css/how.css","/how",
@@ -45,26 +45,7 @@ public class Security {
      .permitAll()
      .anyRequest()
      .authenticated()
-    );/*
-    http.formLogin(form->form
-      .loginPage("/signin")
-      .loginProcessingUrl("/login")
-      .defaultSuccessUrl("/alround",true)
-      .usernameParameter("email")
-      .passwordParameter("password")
-      
-    );*/
-    /*
-    http.logout(logout->logout
-      .deleteCookies("JSESSIONID")
-      .logoutSuccessUrl("/home")
-      .invalidateHttpSession(true)
     );
-    */
     return http.build();
   }
-    /*
-  @Bean PasswordEncoder encoder(){
-    return new BCryptPasswordEncoder();
-  }*/
 }
